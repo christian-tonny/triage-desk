@@ -1,0 +1,115 @@
+{
+  "_licence": "See data/scale/LICENSE-SCALE.md. This file reproduces content from the South African Triage Scale (SATS) and is NOT covered by the repository MIT licence.",
+  "scale": "SATS adult (older than 12 years / taller than 150 cm)",
+  "source": {
+    "id": "SATS-2012",
+    "title": "The South African Triage Scale (SATS) Training Manual 2012",
+    "publisher": "Western Cape Government Health / Emergency Medicine Society of South Africa",
+    "url": "https://emssa.org.za/wp-content/uploads/2011/04/SATS-Manual-A5-LR-spreads.pdf"
+  },
+  "priorities": {
+    "RED":    {"rank": 4, "label": "Emergency",    "target_minutes": 0,   "cite": "SATS-2012 Table 3 (p.7): RED immediate"},
+    "ORANGE": {"rank": 3, "label": "Very urgent",  "target_minutes": 10,  "cite": "SATS-2012 Table 3 (p.7): ORANGE < 10 mins"},
+    "YELLOW": {"rank": 2, "label": "Urgent",       "target_minutes": 60,  "cite": "SATS-2012 Table 3 (p.7): YELLOW < 1 hour"},
+    "GREEN":  {"rank": 1, "label": "Routine",      "target_minutes": 240, "cite": "SATS-2012 Table 3 (p.7): GREEN < 4 hours"}
+  },
+  "tews_bands": [
+    {"min": 7, "max": 99, "colour": "RED",    "cite": "SATS-2012 Fig.4 (p.8): EMERGENCY TEWS 7 or more"},
+    {"min": 5, "max": 6,  "colour": "ORANGE", "cite": "SATS-2012 Fig.4 (p.8): VERY URGENT TEWS 5 or 6"},
+    {"min": 3, "max": 4,  "colour": "YELLOW", "cite": "SATS-2012 Fig.4 (p.8): URGENT TEWS 3 or 4"},
+    {"min": 0, "max": 2,  "colour": "GREEN",  "cite": "SATS-2012 Fig.4 (p.8): ROUTINE TEWS 0, 1 or 2"}
+  ],
+  "tews": {
+    "_cite": "SATS-2012 Fig.14 (p.26): Adult TEWS (older than 12 years)",
+    "mobility": {"walking": 0, "with_help": 1, "stretcher_immobile": 2},
+    "rr": [
+      {"lt": 9, "score": 2},
+      {"lt": 15, "score": 0},
+      {"lt": 21, "score": 1},
+      {"lt": 30, "score": 2},
+      {"lt": 9999, "score": 3}
+    ],
+    "hr": [
+      {"lt": 41, "score": 2},
+      {"lt": 51, "score": 1},
+      {"lt": 101, "score": 0},
+      {"lt": 111, "score": 1},
+      {"lt": 130, "score": 2},
+      {"lt": 9999, "score": 3}
+    ],
+    "sbp": [
+      {"lt": 71, "score": 3},
+      {"lt": 81, "score": 2},
+      {"lt": 101, "score": 1},
+      {"lt": 200, "score": 0},
+      {"lt": 9999, "score": 2}
+    ],
+    "temp_c": [
+      {"lt": 35.0, "score": 2},
+      {"lt": 38.5, "score": 0},
+      {"lt": 99, "score": 2}
+    ],
+    "avpu": {"A": 0, "C": 2, "V": 1, "P": 2, "U": 3},
+    "trauma": {"false": 0, "true": 1}
+  },
+  "discriminators": {
+    "_cite_emergency": "SATS-2012 Fig.4 (p.8) EMERGENCY list",
+    "_cite_very_urgent": "SATS-2012 Fig.4 (p.8) VERY URGENT list",
+    "_cite_urgent": "SATS-2012 Fig.4 (p.8) URGENT list",
+    "obstructed_airway":        {"level": "RED",    "label": "Obstructed airway - not breathing"},
+    "seizure_current":          {"level": "RED",    "label": "Seizure - current"},
+    "burn_facial_inhalation":   {"level": "RED",    "label": "Burn - facial / inhalation"},
+    "hypoglycaemia_lt3":        {"level": "RED",    "label": "Hypoglycaemia - glucose less than 3"},
+    "cardiac_arrest":           {"level": "RED",    "label": "Cardiac arrest"},
+
+    "high_energy_transfer":     {"level": "ORANGE", "label": "High energy transfer (severe mechanism of injury)"},
+    "sob_acute":                {"level": "ORANGE", "label": "Shortness of breath - acute"},
+    "reduced_loc_confused":     {"level": "ORANGE", "label": "Level of consciousness reduced / confused"},
+    "coughing_blood":           {"level": "ORANGE", "label": "Coughing blood"},
+    "chest_pain":               {"level": "ORANGE", "label": "Chest pain"},
+    "stabbed_neck":             {"level": "ORANGE", "label": "Stabbed neck"},
+    "haemorrhage_uncontrolled": {"level": "ORANGE", "label": "Haemorrhage - uncontrolled (arterial bleed)"},
+    "seizure_post_ictal":       {"level": "ORANGE", "label": "Seizure - post ictal"},
+    "focal_neurology_acute":    {"level": "ORANGE", "label": "Focal neurology - acute (stroke)"},
+    "aggression":               {"level": "ORANGE", "label": "Aggression"},
+    "threatened_limb":          {"level": "ORANGE", "label": "Threatened limb"},
+    "eye_injury":               {"level": "ORANGE", "label": "Eye injury"},
+    "dislocation_large_joint":  {"level": "ORANGE", "label": "Dislocation of larger joint (not finger or toe)"},
+    "fracture_compound":        {"level": "ORANGE", "label": "Fracture - compound (with a break in skin)"},
+    "burn_over_20":             {"level": "ORANGE", "label": "Burn over 20%"},
+    "burn_electrical":          {"level": "ORANGE", "label": "Burn - electrical"},
+    "burn_circumferential":     {"level": "ORANGE", "label": "Burn - circumferential"},
+    "burn_chemical":            {"level": "ORANGE", "label": "Burn - chemical"},
+    "poisoning_overdose":       {"level": "ORANGE", "label": "Poisoning / overdose"},
+    "diabetic_gt11_ketonuria":  {"level": "ORANGE", "label": "Diabetic - glucose over 11 & ketonuria"},
+    "vomiting_fresh_blood":     {"level": "ORANGE", "label": "Vomiting fresh blood"},
+    "pregnancy_abdominal_trauma": {"level": "ORANGE", "label": "Pregnancy and abdominal trauma"},
+    "pregnancy_abdominal_pain": {"level": "ORANGE", "label": "Pregnancy and abdominal pain"},
+    "severe_pain":              {"level": "ORANGE", "label": "Severe pain"},
+
+    "haemorrhage_controlled":   {"level": "YELLOW", "label": "Haemorrhage - controlled"},
+    "dislocation_finger_toe":   {"level": "YELLOW", "label": "Dislocation of finger or toe"},
+    "fracture_closed":          {"level": "YELLOW", "label": "Fracture - closed (no break in skin)"},
+    "burn_other":               {"level": "YELLOW", "label": "Burn - other"},
+    "abdominal_pain":           {"level": "YELLOW", "label": "Abdominal pain"},
+    "diabetic_gt17_no_ketonuria": {"level": "YELLOW", "label": "Diabetic - glucose over 17 (no ketonuria)"},
+    "vomiting_persistent":      {"level": "YELLOW", "label": "Vomiting persistently"},
+    "pregnancy_trauma":         {"level": "YELLOW", "label": "Pregnancy and trauma"},
+    "pregnancy_pv_bleed":       {"level": "YELLOW", "label": "Pregnancy and PV bleed"},
+    "moderate_pain":            {"level": "YELLOW", "label": "Moderate pain"}
+  },
+  "additional_investigations": {
+    "_cite": "SATS-2012 Fig.4 (p.9) CHECK FOR ADDITIONAL INVESTIGATIONS",
+    "rr_scores_1_or_more": "Check SpO2 and hand over to SHCP to give O2",
+    "reduced_loc": "Do a finger prick glucotest and hand over to SHCP",
+    "chest_pain": "Immediate ECG and hand over to SHCP",
+    "history_of_diabetes": "Do a finger prick glucotest",
+    "abdominal_pain_female": "Urine dipsticks and urine pregnancy test"
+  },
+  "rules": {
+    "emergency_sign_skips_tews": "SATS-2012 s.3 (p.12): if any emergency signs are present a TEWS does NOT need to be calculated; take to resus",
+    "final_priority": "SATS-2012 Fig.4 (p.8): the higher of the clinical-sign level and the TEWS band",
+    "senior_discretion": "SATS-2012 Fig.4 (p.8): senior healthcare professional's discretion may override the final triage decision",
+    "chronic_physiology": "SATS-2012 s.5.2 (p.27): chronically unwell patients (e.g. TB, HIV) may have abnormal resting physiology and be overtriaged; ask a senior to review rather than downgrading"
+  }
+}

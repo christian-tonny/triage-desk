@@ -1,0 +1,45 @@
+                                               Triage Desk · waiting room at 09:30 · 2026-10-12 (SYNTHETIC DATA)                                                
+┏━━━━┳━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ #  ┃ ID  ┃ Patient                  ┃ Wait ┃ Triaged  ┃ Now            ┃ TEWS ┃ Recheck       ┃ Why / unknown                                                ┃
+┡━━━━╇━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ 1  │ P01 │ Uwase Aline (34F)        │ 120m │  GREEN   │  GREEN         │    1 │ 08:36 OVERDUE │ GREEN: TEWS 1 [Mobility walking→0, RR 18→1, HR 96→0, SBP     │
+│    │     │                          │      │          │                │      │               │ 118→0, Temp 38.2→0, AVPU A→0, Trauma False→0]                │
+│ 2  │ P02 │ Habimana Eric (52M)      │ 118m │  GREEN   │  GREEN         │    1 │ 08:40 OVERDUE │ GREEN: TEWS 1 [Mobility walking→0, RR 16→1, HR 78→0, SBP     │
+│    │     │                          │      │          │                │      │               │ 168→0, Temp 36.8→0, AVPU A→0, Trauma False→0]                │
+│ 3  │ P12 │ Bizimana Theoneste (74M) │ 105m │  GREEN   │  GREEN         │    1 │ 08:52 OVERDUE │ GREEN: TEWS 1 [Mobility with_help→1, RR 14→0, HR 58→0, SBP   │
+│    │     │                          │      │          │                │      │               │ 104→0, Temp 36.2→0, AVPU A→0, Trauma False→0]                │
+│ 4  │ P04 │ Niyonzima Jean (45M)     │ 100m │  YELLOW  │  YELLOW        │    3 │ 09:40         │  YELLOW: TEWS 3 [Mobility walking→0, RR 26→2, HR 104→1, SBP  │
+│    │     │                          │      │          │                │      │               │ 108→0, Temp 37.8→0, AVPU A→0, Trauma False→0]                │
+│ 6  │ P05 │ Ingabire Claudine (61F)  │  92m │  GREEN   │  GREEN         │    2 │ 09:05 OVERDUE │ GREEN: TEWS 2 [Mobility with_help→1, RR 18→1, HR 92→0, SBP   │
+│    │     │                          │      │          │                │      │               │ 132→0, Temp 37.4→0, AVPU A→0, Trauma False→0]                │
+│ 7  │ P06 │ Mugisha Patrick (23M)    │  90m │  YELLOW  │  YELLOW        │    2 │ 08:37 OVERDUE │ YELLOW: Moderate pain (reported)                             │
+│ 9  │ P08 │ Uwimana Grace (39F)      │  85m │  GREEN   │  GREEN         │    1 │ 09:12 OVERDUE │ GREEN: TEWS 1 [Mobility walking→0, RR 16→1, HR 84→0, SBP     │
+│    │     │                          │      │          │                │      │               │ 116→0, Temp 37.6→0, AVPU A→0, Trauma False→0]                │
+│ 11 │ P10 │ Mukeshimana Diane (19F)  │  80m │  ORANGE  │  ORANGE        │    6 │ 09:25 OVERDUE │ ORANGE: Level of consciousness reduced / confused (AVPU =    │
+│    │     │                          │      │          │                │      │               │ V); TEWS 6 [Mobility with_help→1, RR 18→1, HR 124→2, SBP     │
+│    │     │                          │      │          │                │      │               │ 86→1, Temp 37.8→0, AVPU V→1, Trauma False→0]. Also: Vomiting │
+│    │     │                          │      │          │                │      │               │ persistently → YELLOW                                        │
+│ 12 │ P11 │ Iradukunda Ange (8F)     │  78m │  YELLOW  │  OUT OF SCOPE  │    - │ 08:48 OVERDUE │ Patient is 12 or younger. Only the adult SATS chart is       │
+│    │     │                          │      │          │                │      │               │ implemented; us                                              │
+│ 13 │ P13 │ Kayitesi Olive (41F)     │  75m │  YELLOW  │  YELLOW        │    4 │ 09:20 OVERDUE │ YELLOW: TEWS 4 [Mobility walking→0, RR 18→1, HR 132→3, SBP   │
+│    │     │                          │      │          │                │      │               │ 112→0, Temp 36.9→0, AVPU A→0, Trauma False→0]                │
+│ 14 │ P14 │ Ndayisaba Fabrice (36M)  │  72m │  YELLOW  │  YELLOW        │    3 │ 08:54 OVERDUE │ YELLOW: TEWS 3 [Mobility walking→0, RR 24→2, HR 104→1, SBP   │
+│    │     │                          │      │          │                │      │               │ 130→0, Temp 36.8→0, AVPU A→0, Trauma False→0]                │
+└────┴─────┴──────────────────────────┴──────┴──────────┴────────────────┴──────┴───────────────┴──────────────────────────────────────────────────────────────┘
+╭────────────────────────────────────────────────────────────────── Needs your decision (6) ───────────────────────────────────────────────────────────────────╮
+│  Action        Sev       Pt   Proposal                                                                                                                       │
+│  ACT-addd1c4c  ESCALATE  P10   Waited 70 min; ORANGE target is 10 min.                                                                                       │
+│  ACT-33f83e18  WATCH     P11   Patient is 12 or younger. Only the adult SATS chart is implemented; use the paediatric chart and nurse judgement.             │
+│  ACT-edc5e9c9  WATCH     P13   Missing SBP; could be RED once measured.                                                                                      │
+│  ACT-58b37967  WATCH     P10   TEWS rose 4 → 6 since triage; colour unchanged (ORANGE).                                                                      │
+│  ACT-417052bc  WATCH     -     Proposed order by colour then time to target: P10 8→1; P04 4→2; P06 6→3; P11 9→4; P13 10→5; P14 11→6                          │
+│  ACT-98450e9b  CONFIRM   P04   Confirm from note: rr=26 «RR 26», hr=104 «pulse 104», temp_c=37.8 «temp 37.8»  REJECTED: 2                                    │
+╰─────────────────────────────────────────────────────── approve <id> · edit <id> · veto <id> <reason> ────────────────────────────────────────────────────────╯
+Recheck due: P04 (2m over), P01 (24m over), P02 (20m over), P12 (8m over), P06 (23m over), P14 (6m over), P05 (15m over), P08 (8m over), P10 (5m over), P13 (10m
+over)   (ack with approve <id>)
+FYI (no action needed): P04: Waited 70 min; YELLOW target is 60 min. | P06: Waited 80 min; YELLOW target is 60 min. | P13: Waited 65 min; YELLOW target is 60 
+min. | P14: Waited 62 min; YELLOW target is 60 min.
+Vetoed (kept visible): ACT-9696e2e7 queue [reorder_queue] by Nurse Uwera (scripted-nurse): Doctor is already calling P03 next; keep the rest of the order for 
+now.
+Referrals: REF-15890f42 P07 SIGNED by Dr Kamanzi (scripted-nurse)
+Seen: P03 ORANGE at 08:40, P07 RED at 09:25, P09 ORANGE at 08:16

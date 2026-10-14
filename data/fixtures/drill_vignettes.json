@@ -1,0 +1,25 @@
+{
+  "_synthetic": "Invented cases for a timed triage drill. Gold colours are hand-computed from the SATS 2012 adult chart; a clinician should re-check them before use with staff.",
+  "vignettes": [
+    {"id": "V01", "text": "34-year-old man, walked in. Headache 3 days. RR 16, HR 88, BP 124/80, T 37.2, alert, no injury.",
+     "age": 34, "vitals": {"mobility": "walking", "rr": 16, "hr": 88, "sbp": 124, "temp_c": 37.2, "avpu": "A", "trauma": false}, "signs": [], "gold": "GREEN"},
+    {"id": "V02", "text": "58-year-old woman, came in with help. Breathless since this morning. RR 26, HR 114, BP 150/90, T 37.0, alert, no injury. SpO2 not measured.",
+     "age": 58, "vitals": {"mobility": "with_help", "rr": 26, "hr": 114, "sbp": 150, "temp_c": 37.0, "avpu": "A", "trauma": false}, "signs": ["sob_acute"], "gold": "ORANGE"},
+    {"id": "V03", "text": "25-year-old woman, 24 weeks pregnant, walked in. Small PV bleed this morning, now stopped. RR 18, HR 92, BP 110/70, T 36.8, alert.",
+     "age": 25, "pregnant": true, "vitals": {"mobility": "walking", "rr": 18, "hr": 92, "sbp": 110, "temp_c": 36.8, "avpu": "A", "trauma": false}, "signs": ["pregnancy_pv_bleed"], "gold": "YELLOW"},
+    {"id": "V04", "text": "70-year-old man on a stretcher. Family says he became confused today. RR 24, HR 124, BP 92/60, T 38.9, responds to voice.",
+     "age": 70, "vitals": {"mobility": "stretcher_immobile", "rr": 24, "hr": 124, "sbp": 92, "temp_c": 38.9, "avpu": "V", "trauma": false}, "signs": [], "gold": "RED"},
+    {"id": "V05", "text": "19-year-old man, walked in. Cut on left hand from a knife 2 hours ago, bleeding controlled with a bandage. RR 16, HR 96, BP 128/76, T 36.9, alert.",
+     "age": 19, "vitals": {"mobility": "walking", "rr": 16, "hr": 96, "sbp": 128, "temp_c": 36.9, "avpu": "A", "trauma": true}, "signs": ["haemorrhage_controlled"], "gold": "YELLOW"},
+    {"id": "V06", "text": "45-year-old woman, walked in. Chest pain for 40 minutes. RR 18, HR 90, BP 140/90, T 36.6, alert.",
+     "age": 45, "vitals": {"mobility": "walking", "rr": 18, "hr": 90, "sbp": 140, "temp_c": 36.6, "avpu": "A", "trauma": false}, "signs": ["chest_pain"], "gold": "ORANGE"},
+    {"id": "V07", "text": "62-year-old man, known diabetic, walked in. Feels unwell. Glucotest 2.4 mmol/L. RR 18, HR 102, BP 130/80, T 36.5, alert but sweaty.",
+     "age": 62, "diabetic": true, "vitals": {"mobility": "walking", "rr": 18, "hr": 102, "sbp": 130, "temp_c": 36.5, "avpu": "A", "trauma": false, "glucose_mmol": 2.4}, "signs": [], "gold": "RED"},
+    {"id": "V08", "text": "30-year-old woman, walked in. Burning on urination 3 days. RR 14, HR 80, BP 118/72, T 37.4, alert.",
+     "age": 30, "vitals": {"mobility": "walking", "rr": 14, "hr": 80, "sbp": 118, "temp_c": 37.4, "avpu": "A", "trauma": false}, "signs": [], "gold": "GREEN"},
+    {"id": "V09", "text": "40-year-old man, walked in with help. Vomiting since yesterday, cannot keep fluids down. RR 20, HR 118, BP 96/60, T 37.9, alert.",
+     "age": 40, "vitals": {"mobility": "with_help", "rr": 20, "hr": 118, "sbp": 96, "temp_c": 37.9, "avpu": "A", "trauma": false}, "signs": ["vomiting_persistent"], "gold": "ORANGE"},
+    {"id": "V10", "text": "52-year-old woman, walked in. Cough for 2 months, on TB treatment. RR 22, HR 98, BP 112/70, T 37.6, alert. SpO2 95%.",
+     "age": 52, "vitals": {"mobility": "walking", "rr": 22, "hr": 98, "sbp": 112, "temp_c": 37.6, "avpu": "A", "trauma": false, "spo2": 95}, "signs": [], "gold": "GREEN"}
+  ]
+}

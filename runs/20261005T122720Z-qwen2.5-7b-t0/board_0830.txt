@@ -1,0 +1,42 @@
+                                               Triage Desk · waiting room at 08:30 · 2026-10-12 (SYNTHETIC DATA)                                                
+┏━━━━┳━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ #  ┃ ID  ┃ Patient                   ┃ Wait ┃ Triaged  ┃ Now            ┃ TEWS ┃ Recheck       ┃ Why / unknown                                               ┃
+┡━━━━╇━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ 1  │ P01 │ Uwase Aline (34F)         │  60m │  GREEN   │  GREEN         │    1 │ 08:36         │ GREEN: TEWS 1 [Mobility walking→0, RR 18→1, HR 96→0, SBP    │
+│    │     │                           │      │          │                │      │               │ 118→0, Temp 38.2→0, AVPU A→0, Trauma False→0]               │
+│ 2  │ P02 │ Habimana Eric (52M)       │  58m │  GREEN   │  GREEN         │    1 │ 08:40         │ GREEN: TEWS 1 [Mobility walking→0, RR 16→1, HR 78→0, SBP    │
+│    │     │                           │      │          │                │      │               │ 168→0, Temp 36.8→0, AVPU A→0, Trauma False→0]               │
+│ 3  │ P12 │ Bizimana Theoneste (74M)  │  45m │  GREEN   │  GREEN         │    1 │ 08:52         │ GREEN: TEWS 1 [Mobility with_help→1, RR 14→0, HR 58→0, SBP  │
+│    │     │                           │      │          │                │      │               │ 104→0, Temp 36.2→0, AVPU A→0, Trauma False→0]               │
+│ 4  │ P04 │ Niyonzima Jean (45M)      │  40m │  YELLOW  │  YELLOW        │    3 │ 08:28 OVERDUE │ YELLOW: TEWS 3 [Mobility walking→0, RR 24→2, HR 102→1, SBP  │
+│    │     │                           │      │          │                │      │               │ 108→0, Temp 37.9→0, AVPU A→0, Trauma False→0]               │
+│ 5  │ P03 │ Mukamana Josiane (28F)    │  35m │  YELLOW  │  ORANGE        │    2 │ 08:12 OVERDUE │ ORANGE: Pregnancy and abdominal pain (pregnant + abdominal  │
+│    │     │                           │      │          │                │      │               │ pain). Also: Abdominal pain → YELLOW                        │
+│ 6  │ P05 │ Ingabire Claudine (61F)   │  32m │  GREEN   │  GREEN         │    2 │ 09:05         │ GREEN: TEWS 2 [Mobility with_help→1, RR 18→1, HR 92→0, SBP  │
+│    │     │                           │      │          │                │      │               │ 132→0, Temp 37.4→0, AVPU A→0, Trauma False→0]               │
+│ 7  │ P06 │ Mugisha Patrick (23M)     │  30m │  YELLOW  │  YELLOW        │    2 │ 08:37         │ YELLOW: Moderate pain (reported)                            │
+│ 8  │ P07 │ Nshimiyimana Samuel (67M) │  28m │  GREEN   │  GREEN         │    1 │ 09:10         │ GREEN: TEWS 1 [Mobility walking→0, RR 19→1, HR 96→0, SBP    │
+│    │     │                           │      │          │                │      │               │ 132→0, Temp 38.3→0, AVPU A→0, Trauma False→0]               │
+│ 9  │ P08 │ Uwimana Grace (39F)       │  25m │  GREEN   │  GREEN         │    1 │ 09:12         │ GREEN: TEWS 1 [Mobility walking→0, RR 16→1, HR 84→0, SBP    │
+│    │     │                           │      │          │                │      │               │ 116→0, Temp 37.6→0, AVPU A→0, Trauma False→0]               │
+│ 11 │ P10 │ Mukeshimana Diane (19F)   │  20m │  YELLOW  │  YELLOW        │    4 │ 08:46         │ YELLOW: Vomiting persistently (reported); TEWS 4 [Mobility  │
+│    │     │                           │      │          │                │      │               │ walking→0, RR 18→1, HR 112→2, SBP 98→1, Temp 37.8→0, AVPU   │
+│    │     │                           │      │          │                │      │               │ A→0, Trauma False→0]                                        │
+│ 12 │ P11 │ Iradukunda Ange (8F)      │  18m │  YELLOW  │  OUT OF SCOPE  │    - │ 08:48         │ Patient is 12 or younger. Only the adult SATS chart is      │
+│    │     │                           │      │          │                │      │               │ implemented; us                                             │
+│ 13 │ P13 │ Kayitesi Olive (41F)      │  15m │  YELLOW  │  YELLOW        │   ≥4 │ 08:50         │ YELLOW: TEWS 4 (known so far; up to 7) [Mobility walking→0, │
+│    │     │                           │      │          │                │      │               │ RR 18→1, HR 132→3, Temp 36.9→0, AVPU A→0, Trauma False→0].  │
+│    │     │                           │      │          │                │      │               │ UNKNOWN: SBP - could be RED once measured                   │
+│ 14 │ P14 │ Ndayisaba Fabrice (36M)   │  12m │  YELLOW  │  YELLOW        │    3 │ 08:54         │ YELLOW: TEWS 3 [Mobility walking→0, RR 24→2, HR 104→1, SBP  │
+│    │     │                           │      │          │                │      │               │ 130→0, Temp 36.8→0, AVPU A→0, Trauma False→0]               │
+└────┴─────┴───────────────────────────┴──────┴──────────┴────────────────┴──────┴───────────────┴─────────────────────────────────────────────────────────────┘
+╭────────────────────────────────────────────────────────────────── Needs your decision (5) ───────────────────────────────────────────────────────────────────╮
+│  Action        Sev       Pt   Proposal                                                                                                                       │
+│  ACT-f059b9ff  ESCALATE  P03   YELLOW → ORANGE. ORANGE: Pregnancy and abdominal pain (pregnant + abdominal pain). Also: Abdominal pain → YELLOW              │
+│  ACT-9d441853  ESCALATE  P03   Waited 35 min; ORANGE target is 10 min.                                                                                       │
+│  ACT-dae24e0d  WATCH     P11   Patient is 12 or younger. Only the adult SATS chart is implemented; use the paediatric chart and nurse judgement.             │
+│  ACT-f50c2b51  WATCH     P13   Missing SBP; could be RED once measured.                                                                                      │
+│  ACT-bc3a80fb  WATCH     -     Proposed order by colour then time to target: P03 5→1; P04 4→2; P06 7→3; P10 10→4; P11 11→5; P13 12→6                         │
+╰─────────────────────────────────────────────────────── approve <id> · edit <id> · veto <id> <reason> ────────────────────────────────────────────────────────╯
+Recheck due: P04 (2m over), P03 (18m over)   (ack with approve <id>)
+Seen: P09 ORANGE at 08:16

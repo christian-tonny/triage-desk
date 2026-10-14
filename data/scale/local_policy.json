@@ -1,0 +1,45 @@
+{
+  "_status": "NEEDS CLINICAL SIGN-OFF. These are site-configurable defaults, not SATS. Every value carries its source or says it has none.",
+  "facility": "Synthetic district hospital outpatient department (demo only)",
+  "recheck_minutes": {
+    "GREEN": {
+      "value": 60,
+      "cite": "Uwamahoro et al., Afr J Emerg Med 2020 (CHUK modified SATS): green patients reassessed hourly"
+    },
+    "YELLOW": {
+      "value": 30,
+      "cite": "LOCAL DEFAULT, no published source: half the SATS yellow target time"
+    },
+    "ORANGE": {
+      "value": 10,
+      "cite": "SATS-2012 Table 3: orange target time < 10 mins; a waiting orange patient past 10 min is already a breach"
+    },
+    "RED": {
+      "value": 0,
+      "cite": "SATS-2012 Table 3: red is immediate; a red patient should not be in the waiting queue"
+    }
+  },
+  "spo2_red_below": {
+    "value": 92,
+    "cite": "LOCAL POLICY: SATS-2012 lists 'central cyanosis or SpO2 less than 92%' as a paediatric emergency sign (p.10) and tells the adult triage provider to 'check SpO2 and hand over to SHCP to give O2' when RR scores; this policy applies the paediatric threshold to adults"
+  },
+  "tews_rise_watch": {
+    "value": 2,
+    "cite": "LOCAL DEFAULT, no published source: a rise of 2+ TEWS points from the patient's triage baseline raises a WATCH flag even if the colour has not changed"
+  },
+  "single_parameter_3": {
+    "value": true,
+    "cite": "Adapted from RCP NEWS2 (2017): a score of 3 in any single parameter prompts urgent review. Applied here to TEWS parameters as a WATCH flag"
+  },
+  "referral": {
+    "trigger_colours": [
+      "RED"
+    ],
+    "cite": "LOCAL DEFAULT: draft (never send) a referral for any patient computed RED at a facility without resus capacity"
+  },
+  "pain_score_bands": {
+    "severe_min": 8,
+    "moderate_min": 5,
+    "cite": "LOCAL DEFAULT: SATS-2012 lists 'severe pain' (very urgent) and 'moderate pain' (urgent) and gives example pain scales (Appendix B) but no 0-10 cut-offs. When a note gives a numeric score N/10, the sign is set from the number: 8-10 severe, 5-7 moderate, 0-4 no pain sign."
+  }
+}

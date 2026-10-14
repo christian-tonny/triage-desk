@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/ledger.db*
+data/.clock
+runs/console/
+runs/drill/
+evals/results/_runs/**/ledger.db*
+evals/results/_runs/**/board_*.txt
+demo/*.cast
+demo/frames/
+.DS_Store
